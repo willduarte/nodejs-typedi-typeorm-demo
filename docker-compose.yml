@@ -1,0 +1,16 @@
+version: "3.5"
+
+services:
+  db:
+    image: postgres:11.8
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=sample_db
+
+volumes:
+  db-data:
