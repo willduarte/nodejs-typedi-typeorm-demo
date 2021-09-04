@@ -16,3 +16,11 @@ npm install
 npm run db:update
 npm run dev
 ```
+
+Reference
+
+* [typescript](https://github.com/microsoft/TypeScript)
+* [typestack/typedi](https://github.com/typestack/typedi)
+* [typeorm](https://github.com/typeorm/typeorm)
+* [typeorm-typedi-extensions](https://github.com/typeorm/typeorm-typedi-extensions)
+* [ts-node-dev](https://github.com/wclr/ts-node-dev)
