@@ -18,10 +18,10 @@ export class CreateUserProfilesTable1630774104785
             isNullable: false,
           }),
           new TableColumn({
-            name: 'name',
-            type: 'varchar',
+            name: "name",
+            type: "varchar",
             isNullable: false,
-          })
+          }),
         ],
       })
     );
